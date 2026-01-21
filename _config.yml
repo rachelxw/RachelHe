@@ -1,5 +1,18 @@
 title: Shaw Talebi
-#logo: /assets/img/headshot_circle.png
-#description: text below image
+logo: /asset/img/headshot_circle.png
+description: >
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/" target="_blank">
+        LinkedIn
+      </a>
+    </li>
+    <li>
+      Email: <a href="mailto:rachelhexinwei@gmail.com">rachelhexinwei@gmail.com</a>
+    </li>
+    <li>
+      I love playing drums and piano!
+    </li>
+  </ul>
 show_downloads: true
 theme: jekyll-theme-minimal
