@@ -1,29 +1,30 @@
-# Data Scientist
-[EEG Band Discovery](https://www.mdpi.com/1424-8220/22/8/3048)
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: 
+Python, R, SQL, Java, JavaScript, MySQL, MongoDB, Firebase, Azure, Tableau, Vega-Lite, Observable, VS Code, IntelliJ, Excel; HTML, CSS, React, Redux
 
-## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+
+## Education 			        		
+- University of Washington, The Information School
+- Major: Informatics - Data Science
+- Sep 2022 - Jun 2026
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Research Assistant @ UW & NASA Collaboration - Wood Group (_April 2025 - Present_)**
+- Reviewed and refined **1,000+** ML-generated ship track classifications using satellite imagery, improving label quality for climate and aerosol–cloud interaction research.
+- Conducted systematic data quality control and collaborated with UW and NASA researchers to identify misclassifications and ensure consistent, reproducible annotations for ML evaluation workflows.
+## Some projects I've worked on
+### Optimizing Crisis Response Data Queries
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+In this project, our team _404NotFound_ designed and built a **MySQL** relational database from raw public crisis response CSV data. As the database designer and developer, I focused on schema design, indexing strategy, and query optimization to improve performance. By analyzing execution plans and tuning indexes, our team resulting in a **72%** improvement in query execution time and a **70%** reduction in full-table scans.
 
-## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
+### Data-Driven Analysis of YouTube Trending Videos
+This project was motivated by a desire to understand what actually drives videos onto YouTube’s Trending page, beyond surface-level view counts. Using a large U.S. trending dataset with **260,000+** data from 2020–2024, we cleaned, engineered new features (like engagement rate and tag count), and built interactive Vega-Lite visualizations to explore patterns across categories, time, and engagement metrics. The key insight was that trending behavior varies significantly by category and over time, and that simple metadata such as tags and engagement ratios can reveal meaningful differences in popularity dynamics. By focusing on interactive exploration rather than static charts, the project helps content creators, marketers, and analysts ask and answer their own questions about how YouTube trends evolve.
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+- [🌐 **Interactive Website (Observable)]("https://observablehq.com/d/624d61066e35a893")
 
+- 📄 **Project Presentation (PDF):**  
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
+### Analyzing the Impact of Wildfires
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+### Ridge Cupbop and Ramen Information Platform
 
